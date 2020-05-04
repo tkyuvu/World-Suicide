@@ -1,0 +1,103 @@
+#logo {
+	background: url(images/suicide.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+  text-align: center;
+  vertical-align: middle;
+  background-position: center top;
+  background-size: cover;
+  height: 250px;
+}
+
+#logo_text h1 {
+  color: ghostwhite;
+  text-align: center;
+  font-size: 350%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 110%;
+}
+
+li a:hover {
+  background-color: #969b97;
+  text-decoration: none;
+}
+
+ul#menu li.selected {
+  background: #3fa1be;
+}
+
+.tableauPlaceholder img {
+  display: block;
+  text-align: center;
+}
+
+p {font-size: 115%;}
+
+#footer {
+  text-align: center;
+  border-top: double;
+}
+
+.tb table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 600px;   
+  margin: auto; 
+  background-color: antiquewhite;
+  font-size: 120%;
+}
+
+tr th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: darkgray;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 50px 0 0 50px;
+  text-align: center;
+}
+
+
+#content {
+  width: 100%; 
+}
+
+.tableauPlaceholder {
+  display: inline-block; 
+  margin: 0 auto;
+  border:1px solid #ad0a4e;
+}
+
+#content h2 {
+  color: darkslateblue;
+  font-weight: bold;
+}
+
+p {
+  font-size: 120%;
+}
+

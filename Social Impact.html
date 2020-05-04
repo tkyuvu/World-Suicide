@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type='text/css' href='style.css'/>
+	<link rel="stylesheet" href='bootstrap.min.css'>
+    <title>Suicide Analysis</title>
+</head>
+<body style='background-color: #EFF2FB;'>
+<div class='container'><!--bootstrap-->
+	<div class='row'>
+		<div class='col-md-12'>
+			
+	<div id='header'>
+		<div id='logo'>
+			<div id='logo_text'>
+			<h1>World Suicide from 1995 to 2013</h1>
+			</div><!--logo_text-->
+		</div><!--logo-->
+		
+		<div id='menubar'>
+			<ul id='menu'>
+				<li><a href='index.html'>Home</a></li>
+				<li class='selected'><a href='Social Impact.html'>Social Impact</a></li>
+				<li><a href='Economy Impact.html'>Economy Impact</a></li>
+				<li><a href='Conclusion.html'>Conclusion</a></li>
+			</ul><!--menu-->
+		</div><!--menubar-->			
+	</div> <!--header-->
+	
+	<div id='content'> 
+        <p>There might be an association between the quality of life and suicide rate. Will healthcare have any effects on suicide? 
+        How about technology? Nowadays, interactions over the internet and cell phones also pose a risk of cyberbullying that some people have to face. 
+        We are going to explore the relationships between suicide rate and the following social factors:
+            <li>Life Expectancy</li><br>
+            <li>Alcohol Consumption</li><br>
+            <li>Number of Physicians</li><br>
+            <li>Technology</li><br>
+            <li>Lower Education Completion</li><br>
+        </p>
+        <p>Scatter plots are used mostly in showing correlations and the impacts on suicide rate, but some scatter plots for some variables in this analysis do not 
+        show any trend or correlations, so it is better to look into the association between two variables instead of finding correlations. Because of this reason, 
+        various type of visualization charts such as trend line, combo chart, and bubble chart with animation will be used as well in order 
+        to show the relationships between suicide rate and social factors.</p>
+
+        <p>Users can toggle between different social factors to examine the impact of these factors on suicide rate.
+        </p>    
+
+        <!--Impact of Social Factors on Suicide Rate-->
+        <div class='tableauPlaceholder' id='viz1588313918987' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;ImpactofSocialFactorsonSuicideRate&#47;1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' /><param name='name' value='WorldSuicidefrom1995to2013&#47;ImpactofSocialFactorsonSuicideRate' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;ImpactofSocialFactorsonSuicideRate&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1588313918987');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                      
+            vizElement.style.width='800px';vizElement.style.height='600px';                     
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+        <br>
+        <p>Summary for each factor is listed below.</p>
+
+        <h2>Suicide rate vs Life Expectancy of 43 countries from 1995 to 2013</h2>
+        <p>This animated chart can help visualize the effect of life expectancy on suicide in addition to the line chart above.</p>
+        <div class='tableauPlaceholder' id='viz1588310499986' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;SuicideRatevsLifeExpectancyAnimation&#47;1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' /><param name='name' value='WorldSuicidefrom1995to2013&#47;SuicideRatevsLifeExpectancyAnimation' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;SuicideRatevsLifeExpectancyAnimation&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1588310499986');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='650px';vizElement.style.height='500px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+
+        <br>
+		<p>From the animated chart, the bubbles are moving towards the bottom right corner, meaning that suicide rate dropped as life expectancy increased. 
+        There was one country that behaved oddly when its life expectancy decreased from 1995 to 2005, then started to pick up in 2006. That country is 
+        South Africa. South Africa has a lower life expectancy than the rest of the world due to infectious diseases and violence. The reason for the 
+        drop in life expectancy of South Africa in 1995 - 2005 was HIV-AIDS epidemic. After HIV treatments became available in 2005, South Africa's 
+        life expectancy started to rise again. <br>
+        Except for South Africa, most countries' suicide rates dropped when life expectancy increased. We can say that there is a negative relationship between 
+        suicide rate and life expectancy.
+        </p>		
+
+        <h2>Number of Physicians</h2>
+        
+        <p>The number of physicians increases by years, which means patients can have a better care in both mental and physical health. 
+        Therefore, suicide rate decreases when there are more healthcare workers.
+        </p>
+
+
+		<h2>Alcohol Consumption</h2>
+        
+        <p>The correlation between suicide rate and alcohol consumption is relatively strong. The positive trend is obviously seen in the chart. 
+        Studies have shown that  alcohol is a major contributing factor in suicide. While it is impossible to narrow down the reasons people commit 
+        suicide, the abuse of alcohol is found to be related to nearly one-third of suicides. Alcohol is somewhat a "medication" people seek for 
+        when they suffer from anxiety. This substance may ease their mind at first, but the prolong use of alcohol can lead to strong suicidal thought. 
+        Additionally, alcohol generally makes the other contributing factors become worse. For example, alcohol can cause problems for someone who is 
+        dealing with depression and family/work issues, then they develope suicidal thought under alcohol influence.
+        </p>
+
+        
+        <h2>Technology (Internet and Cell Phone Usage) </h2>
+    
+        <p>With the development in technology, more people (especially teenagers and young alduts) spend more time on the Internet and smart phones.
+        Although the correlations in the charts above are weak, we can still see a positive trend for cell phone and internet usage. 
+        Heavy technology use and social media are key factors that change the habit of communication. There are plenty of information and influences 
+        on social media, both the good and the bad, but people's mental health are being affected by insulting comments or violent videos.
+        </p>
+
+        <h2>Secondary Education Completion</h2>
+        
+        <p>When looking at the trends from 1995 to 2013, there was a slight increase in secondary completion rate over the years and  
+        suicide rate decreased over years. This suggests that there is an association between education completion rate and suicide rate. 
+        Higher education completion is associated with lower suicide rate.
+        </p>
+
+	</div><!--content-->
+	<br><br>
+    <div id='footer'>
+        Copyright &copy; 
+            <script>
+                var d = new Date();
+                document.write(d.getFullYear());
+            </script>
+        <br>
+        Trinh Vu - George Washington University
+    </div><!--footer-->
+		<div>
+	</div>
+</div><!--bootstrap-->	
+</body>
+</html>

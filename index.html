@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type='text/css' href='style.css'/>
+	<link rel="stylesheet" href='bootstrap.min.css'>
+    <title>Suicide Analysis</title>
+</head>
+<body style='background-color: #EFF2FB;'>
+<div class='container'><!--bootstrap-->
+	<div class='row'>
+		<div class='col-md-12'>
+
+	<div id='header'>
+		<div id='logo'>
+			<div id='logo_text'>
+			<h1>World Suicide from 1995 to 2013</h1>
+			</div><!--logo_text-->
+		</div><!--logo-->
+		
+		<div id='menubar'>
+			<ul id='menu'>
+				<li class='selected'><a href='index.html'>Home</a></li>
+				<li><a href='Social Impact.html'>Social Impact</a></li>
+				<li><a href='Economy Impact.html'>Economy Impact</a></li>
+				<li><a href='Conclusion.html'>Conclusion</a></li>
+			</ul><!--menu-->
+		</div><!--menubar-->			
+	</div> <!--header-->
+	
+	<div id='content'>
+		<h2>Introduction</h2>
+			<p>Suicide is a complicated psychological issue that happens in every country. According to World Health Organization (WHO),
+			there are about 800,000 die from suicide every year. For each suicide, there are more than 20 attemps. 
+			Suicides have a serious effect not only on family level, but also on community and society levels. Suicide is a tragedy 
+			that could happen throughout the lifespan and it was the second leading cause of death in 15-29 year-olds in 2016. The cause of 
+            suicide is very complicated. It has been suggested that a combination of changes in life events can affect mental and emotional health, leading to suicide.</p> 
+					
+			<p>This project aims to analyze suicide data to gain a better understanding of social and economic factors that contribute to suicide. The data used in this analysis is obtained from <a href='https://www.kaggle.com/dornani/widandsuicide'>Kaggle</a> 
+			and <a href='https://datacatalog.worldbank.org/dataset/world-development-indicators'>World Bank - World Development Indicators</a>. 
+			We will be able to identify suicide rate among different countries, age groups, genders, and generation. Social and economial trends can be used to determine 
+			the possible causes of suicide and people who are more likely to be at risk.</p>
+		
+        <h2>Global Suicide Number</h2>         
+            <div class='tableauPlaceholder' id='viz1586125857305' style='position: relative'>
+                <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5Z&#47;5Z55WT6FH&#47;1_rss.png' style='border: none' /></a></noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='path' value='shared&#47;5Z55WT6FH' /> 
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5Z&#47;5Z55WT6FH&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='filter' value='publish=yes' />
+                    <param name='showShareOptions' value='false'/>
+                </object>
+            </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1586125857305');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='100%';vizElement.style.height='650px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>      
+            <br>
+            <p>The world map can be animated by clicking the play forward/backward buttons on the side of the map to show how number of suicides from 43 countries changed from 1995 to 2013. 
+                In 1995, Russia had the greatest number of suicides (60,548 cases). The number of suicides from Russia decreased over the span of 18 years. 
+                By 2013, Russia was not longer the top country; it became the second with 28,690 cases, when the USA was the country with the most suicides (41,143 cases).
+                Besides the USA, Brazil's suicide numbers also increased in 18 years, but not as much as the USA. <br>
+                Overall, the color blue from the map becomes lighter as the play button moves towards 2013, indicating the number of suicides decreases every year globally.</p>
+        
+        <h2>Suicide Trend from 1995 to 2013 by Suicide Numbers</h2>
+            <p>This line chart shows that the number of suicides decreased yearly from 1995 to 2013 for the average from all 43 countries. The number of suicides was down by about 30,000 cases in 18 years.</p>
+       
+            <div class='tableauPlaceholder' id='viz1586130656852' style='position: relative'>
+                <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;TrendovertheyearsWorldwide&#47;1_rss.png' style='border: none' /></a></noscript>
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+                    <param name='name' value='WorldSuicidefrom1995to2013&#47;TrendovertheyearsWorldwide' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;TrendovertheyearsWorldwide&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='showShareOptions' value='false'/>
+                </object>
+            </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1586130656852');                      
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                vizElement.style.width='800px';vizElement.style.height='500px';                    
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+        <br>
+        
+        <h2>How is number of suicides compared to population?</h2>
+        <div class='tableauPlaceholder' id='viz1586131159154' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;PopulationandSuicideNumbersforEachCountry&#47;1_rss.png' style='border: none; text-align=center' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='WorldSuicidefrom1995to2013&#47;PopulationandSuicideNumbersforEachCountry' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;PopulationandSuicideNumbersforEachCountry&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='showShareOptions' value='false'/>
+            </object>
+        </div>               
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1586131159154');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='600px';vizElement.style.height='500px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+        <br>
+        <p>The size of the bubble represents the population of the country. The darkness of color represents the number of suicides.
+        On average, Russia has the highest number of suicides but its population is much less than the USA.
+        Similarly, Germany number of suicides is higher than Brazil on average, but Brazil has more population. 
+        To compare suicide among populations, number of suicides or suicide percentage of population are not the best measures. Therefore,
+        suicide rate is used instead. Suicide rate is basically the number of suicides per 100,000 people. 
+        For the rest of the analysis, this standardized measure will be used when comparing suicides between different populations.
+        The difference between suicide number measurement and suicide rate measurement can be seen the bar charts below.</p>
+
+        <h2>Top Countries by Suicide Numbers and Suicide Rate</h2>
+        <p>The bar chart on the left compares the countries by suicide number, Russia is the top country with the most number of cases. United States is the second. 
+        Japan, Ukraine, and Germany stay at the third, fourth, and fifth, respectively. However, the bar chart on the right shows the suicide rate in which Russia is still the top, but Hungary is the second highest. 
+        Ukraine, Croatia, and Japan are next on the list. So by using the standardized suicide rate, we have a fair comparison between countries with different populations. 
+        </p>
+
+        <div class='tableauPlaceholder' id='viz1586143110862' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;SuicideNoandSuicideRate&#47;1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='WorldSuicidefrom1995to2013&#47;SuicideNoandSuicideRate' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;SuicideNoandSuicideRate&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1586143110862');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='900px';vizElement.style.height='550px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+
+        <br>
+        
+
+        <h2>Suicide Trend by Country</h2>
+        <div class='tableauPlaceholder' id='viz1586143575774' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;SuicideTrendbyCountries&#47;1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='WorldSuicidefrom1995to2013&#47;SuicideTrendbyCountries' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;SuicideTrendbyCountries&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1586143575774');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='800px';vizElement.style.height='600px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+
+        <br>
+        <p>Trend for suicide rate from 1995 to 2013 is displayed in the chart above. Users can select countries to examine their suicide trends in 18 years.
+        Even though the suicide rate decreased generally, when examining each country separately, they still show some minor differences. For example, 
+        Japan's suicide rate increased in 1998, then decreased, but the data in 2013 was still a little higher than the data in 1995. The United States and United Kingdom's 
+        suicide trends seem to be steady in 18 years. Iceland's suicide rate was not steady when it kept increasing and decreasing.
+        </p>
+
+        <h2>Suicide by Gender</h2>
+        <div class='tableauPlaceholder' id='viz1586145334075' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;Gender&#47;1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' />
+                <param name='name' value='WorldSuicidefrom1995to2013&#47;Gender' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='no' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;Gender&#47;1.png' /> 
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='filter' value='publish=yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+        var divElement = document.getElementById('viz1586145334075');                    
+        var vizElement = divElement.getElementsByTagName('object')[0];                    
+        vizElement.style.width='1024px';vizElement.style.height='570px';                    
+        var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+        <br>
+        <p>From the pie chart which shows the average suicide rate for men and women, suicide rate in men are about four times higher than suicide rate in women. 
+        The line chart also has the same consistency; in 2013, suicide rate for women was 4.77; for men, it was 17.74, roughly 4 times higher.
+        Both suicide rates for men and women dropped from 1995-2013, but the suicide rate in male dropped more drastically than suicide rate in female.
+        According to Helene Schumacher from BBC Future, women attempt to suicide more than men, but the suicide rate in men is higher because 
+        men suicide methods are often more violent, resulting in a higher suicide deaths in men, whereas women only score higher in attempting to suicide.
+        </p>
+
+        <h2> Suicide by Age and Generation</h2>
+        <p>Users can toggle between Age and Generation, Gender, and Country.</p>
+        <div class='tableauPlaceholder' id='viz1587963689617' style='position: relative'>
+            <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;AgeGeneration&#47;1_rss.png' style='border: none' /></a></noscript>
+            <object class='tableauViz'  style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
+                <param name='site_root' value='' /><param name='name' value='WorldSuicidefrom1995to2013&#47;AgeGeneration' />
+                <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldSuicidefrom1995to2013&#47;AgeGeneration&#47;1.png' /> 
+                <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+            </object>
+        </div>                
+        <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1587963689617');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            vizElement.style.width='1100px';vizElement.style.height='650px';                    
+            var scriptElement = document.createElement('script');                    
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+        </script>
+        <br>
+        
+        <p><b>Age</b><br>
+        Suicide rate increases with the increase of age. The oldest group (> 75 years old) has the highest suicide rate, 25.63 per 100,000 people, 
+        followed by 55-74 years group with the rate of 17.26 per 100,000 people. Young adults have lower suicide rate. Children have the lowest rate, 0.55. 
+        This number makes sense because small children might not have an idea about suicide. 
+        Older people are associated with higher risk of social isolation, depression, functional declines, and cognitive defects. 
+        Hence, they have a higher risk of committing suicides. 
+        </p>
+
+        <p><b>Generation</b><br>
+        In order to discuss generations, a little summary on the years in which each generation was born to is below: <br>
+        - G.I Generation (or the Greatest Generation): born in or before 1924<br>
+        - Silent Generation: born in 1925 - 1945<br>
+        - Baby Boomers: born in 1946 - 1964<br>
+        - Generation X: born in 1965 - 1980<br>
+        - Millenials: born in 1981 - 1996<br>
+        - Generation Z: born in 1997 - current<br>
+        By the percentage of total suicide rates, the silent generation takes up 38.13%, the highest among all generations. On the other hand, in the bar chart which shows suicide rate for each group, 
+        the group that has the highest suicide rate is G.I Generation with 29.98 suicides per 100,000 people. The reason is people in G.I Generation are over 95 years old; the population for this age is 
+        very small, the suicide rate therefore is the highest for this group. The silent generation is also over 75 years old, if we combine the silent and G.I generations, the suicide rate based on generation 
+        is similar to the suicide rate based on age; because generations are basically classified by age. The bar chart for generation shows a consistent result with the bar chart for age. The older generations 
+        tend to have higher suicide rates.        
+        </p>
+
+	</div><!--content-->
+	<br><br>
+    <div id='footer'>
+        Copyright &copy; 
+            <script>
+                var d = new Date();
+                document.write(d.getFullYear());
+            </script>
+        <br>
+        Trinh Vu - George Washington University
+    </div><!--footer-->
+		<div>
+	</div>
+</div><!--bootstrap-->	
+
+</body>
+</html>
